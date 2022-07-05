@@ -1,0 +1,52 @@
+.footerContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    border-top: 1px solid grey;
+}
+.mailAndPhone{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.mailAndPhoneInfo{
+    color: #e1a87a;
+    padding-bottom: 0.1rem;
+    border-bottom: 1px solid #e1a87a;
+
+}
+.logoFooter{
+    margin-bottom: 3rem;
+}
+.footerLogo{
+    color: red
+}
+.socialMedia{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+#socialMediaLogo{
+    color:#e1a87a;
+    font-size: 1.7rem;
+}
+.copy{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 1px solid grey;
+}
+.copyInfo{
+    color:grey;
+    font-size: 12px;
+}
