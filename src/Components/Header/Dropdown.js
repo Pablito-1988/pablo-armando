@@ -1,14 +1,21 @@
-import React from 'react';
+import React from "react";
 import "./Dropdown.css";
 
 const Dropdown = () => {
-    return (
-        <div className='dropDownContainer'>
-            <p className='dropDownLink'>hola</p>
-            <p className='dropDownLink'>Como andas</p>
-            <p className='dropDownLink'>bien</p>
-        </div>
-    );
+  return (
+    <div className="dropDownContainer">
+      <div className="dropDownLinks">
+        <p className="dropDownLink">Mi trabajo</p>
+        <p className="dropDownLink">About</p>
+        <p className="dropDownLink">Contacto</p>
+      </div>
+
+      <div className="socialDropDown">
+        <i id="socialMediaLogo" className="fab fa-instagram"></i>
+        <i id="socialMediaLogo" className="fab fa-linkedin-in"></i>
+      </div>
+    </div>
+  );
 };
 
 export default Dropdown;

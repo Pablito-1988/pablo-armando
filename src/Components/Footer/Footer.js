@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import logo from "../../Assets/Img/1.png";
 
 const Footer = () => {
   return (
@@ -21,7 +22,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="logoFooter">
-          <h1 className="footerLogo">PA</h1>
+        <img src={logo} alt="logoPablo" className="logoPablo" />
         </div>
         <div className="socialMedia">
           <i id="socialMediaLogo" className="fab fa-instagram"></i>
