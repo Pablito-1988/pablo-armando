@@ -22,7 +22,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="logoFooter">
-        <img src={logo} alt="logoPablo" className="logoPablo" />
+        <img src={logo} alt="logoPablo" className="logoPabloFooter" />
         </div>
         <div className="socialMedia">
           <i id="socialMediaLogo" className="fab fa-instagram"></i>
