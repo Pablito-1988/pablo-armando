@@ -1,12 +1,12 @@
 .logoPablo{
-    width: 10rem;
+    width: 8rem;
 }
 
 .dropDownContainer{
     position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     animation-name: apear;
     animation-duration: 0.2s;
@@ -21,9 +21,6 @@
     0%{
         opacity: 0;
     }
-    /* 50%{
-        opacity: 0.5;
-    } */
     100%{
         opacity: 1;
     }
