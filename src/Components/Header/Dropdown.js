@@ -11,9 +11,9 @@ const Dropdown = (props) => {
   return (
     <div className="dropDownContainer">
       <div className="dropDownLinks">
-        <Link to={"/work"}><p onClick={closeDropdown} className="dropDownLink">Mi trabajo</p></Link>
+        <Link to={"/work"}><p onClick={closeDropdown} className="dropDownLink">Proyects</p></Link>
        <p className="dropDownLink">About</p>
-       <Link to={"/contact"}><p onClick={closeDropdown} className="dropDownLink">Contacto</p></Link>
+       <Link to={"/contact"}><p onClick={closeDropdown} className="dropDownLink">Contact</p></Link>
       </div>
 
       <div className="socialDropDown">

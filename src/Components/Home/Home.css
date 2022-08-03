@@ -16,6 +16,7 @@
     border: 1px solid white;
     animation: pointer 2.5s infinite;
     transition: 1s;
+    background-color: white;
 }
 .arrow_active{
     margin-top: 10rem;
@@ -23,6 +24,7 @@
     border: 1px solid black;
     animation: pointer 2.5s infinite;
     transition: 1s;
+    background-color: black;
 }
 @keyframes pointer{
     0%{
