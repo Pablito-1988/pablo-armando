@@ -24,12 +24,18 @@ const [arrow , setArrow] = useState('arrow');
             <section>
                 <div  className={background}>
                     <div className="homeAnimation__text">
-                        <h1  className={test}>Front end developer.</h1>
-                        <p>Bulding better webs</p>
+                        <h1 className={test} >Front end developer.</h1>
+                        <p >Bulding better webs</p>
                         <span className={arrow}></span>
                       </div>  
                 </div>
             </section>
+            <section>
+                <div className='proyectsSeccion'>
+                    <h2 className='proyectsTitle'>Proyects</h2>
+
+                </div>
+              </section>  
         </div>
     );
 };
