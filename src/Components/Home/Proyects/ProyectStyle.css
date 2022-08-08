@@ -1,0 +1,15 @@
+.proyectTitle{
+    color: red
+}
+.proyectContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+.proyectImg{
+    width: 200px;
+    height: auto;
+    border-radius: 2px;
+}

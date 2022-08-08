@@ -1,5 +1,6 @@
 import React , {useState } from 'react';
 import "./Home.css";
+import Proyects from '../Home/Proyects/Proyects';
 
 const Home = () => {
 const [test , setTest] = useState('test');
@@ -30,12 +31,7 @@ const [arrow , setArrow] = useState('arrow');
                       </div>  
                 </div>
             </section>
-            <section>
-                <div className='proyectsSeccion'>
-                    <h2 className='proyectsTitle'>Proyects</h2>
-
-                </div>
-              </section>  
+            <Proyects/>
         </div>
     );
 };
