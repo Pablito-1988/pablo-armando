@@ -31,7 +31,6 @@ const Proyects = () => {
         <h2 className="proyectsTitle">Proyects</h2>
         <div className="proyectsWrapper">
           {proyects.map((proyect, index) => {
-            console.log(proyect.image)
             return (
               <Proyect
                 key={index}
