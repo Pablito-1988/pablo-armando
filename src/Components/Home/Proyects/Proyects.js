@@ -1,9 +1,9 @@
-import React from "react";
+import React , {useRef} from "react";
 import "./ProyectStyle.css";
 import Proyect from "./Proyect";
 import Avispa from "../../../Assets/Img/Avispa.png";
 import Dog from "../../../Assets/Img/DogPNG.png";
-import Jenny from "../../../Assets/Img/JennyPanichiLogo.png";
+import Jenny from "../../../Assets/Img/JennyLogo.png";
 
 const Proyects = () => {
   const proyects = [
@@ -25,14 +25,31 @@ const Proyects = () => {
     },
   ];
 
+  const changeColor = useRef()
+
+ function diferentColor(name){
+    
+    if(name === "Avispa Lab"){
+        changeColor.current.style.backgroundColor='rgb(56, 182, 255)'
+    }else if(name === "Jenny Panichi"){
+        changeColor.current.style.backgroundColor='red'
+    }else if(name === "Dog Grow"){
+        changeColor.current.style.backgroundColor='rgb(49, 218, 73)'
+    }
+ }
+ function normalColor(){
+    changeColor.current.style.backgroundColor='black'
+ }
   return (
     <section>
-      <div className="proyectsSeccion">
+      <div ref={changeColor} className="proyectsSeccion">
         <h2 className="proyectsTitle">Proyects</h2>
-        <div className="proyectsWrapper">
+        <div  className="proyectsWrapper">
           {proyects.map((proyect, index) => {
             return (
               <Proyect
+                color={diferentColor} 
+                backToBlack={normalColor}
                 key={index}
                 title={proyect.title}
                 web={proyect.web}

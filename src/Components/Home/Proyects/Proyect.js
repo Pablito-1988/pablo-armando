@@ -1,10 +1,15 @@
 import React from "react";
 
 const Proyect = (props) => {
+ 
   const { title, web, image } = props;
 
+  
+
   return (
-    <div className="proyectContainer">
+    <div onMouseEnter={()=>{props.color(title)
+    }} 
+        onMouseLeave={props.backToBlack} className="proyectContainer">
       <div className="card">
         <div className="imageContainer">
           <a href={web}>
