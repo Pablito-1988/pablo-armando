@@ -65,12 +65,15 @@
     transition: 1s;
     font-family: 'Anton', sans-serif;
 }
+
 .test1{
     font-size: 2rem;
     color: black;
     transition: 1s;
     font-family: 'Anton', sans-serif;
+    
 }
+
 
 .proyectsSeccion{
     display: flex;

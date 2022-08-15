@@ -17,7 +17,7 @@ const [isOpen , setIsOpen] = useState("menu");
       <div className="headerContainer">
         <span className="space"></span>
        <Link to={"/"}><img src={logo} alt="logoPablo" className="logoPablo" /></Link> 
-        <span onClick={change} className="material-symbols-outlined">{isOpen}</span>
+        <span onClick={change} className="space" /* className="material-symbols-outlined" */>{isOpen}</span>
       </div>
       {isOpen === "close" ?<Dropdown close={()=> change()}/> : null}
     </header>
