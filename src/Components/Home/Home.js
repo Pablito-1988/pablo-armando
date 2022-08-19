@@ -9,8 +9,8 @@ const Home = () => {
 const [test , setTest] = useState('test');
 const [background , setBackground] = useState('homeAnimation');
 const [arrow , setArrow] = useState('arrow');
-const [atribute , setAtribute] = useState('');
-const at = ['Front end developer.', 'Dedicated.' , 'Passionate.', 'Gamer.' , 'Full Stack Developer.'];
+const [atribute , setAtribute] = useState('a Front end developer.');
+const at = ['a Front end developer.','a creative web developer' ,'Dedicated.' , 'Passionate.', 'Gamer.' , 'a Full Stack Developer.'];
 
 useEffect(() => {
    const interval = setInterval(() => {
@@ -41,6 +41,7 @@ useEffect(() => {
                 <div  className={background}>
                     <div className="homeAnimation__text">
                         <h1 className={test}>I'm </h1>
+                        
                         <h1 className={test} >{atribute}</h1>
                         <p >Bulding better webs</p>
                         <span className={arrow}></span>

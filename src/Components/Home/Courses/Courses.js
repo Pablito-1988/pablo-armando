@@ -5,7 +5,7 @@ const Courses = () => {
 const cursos = [
     {
         id: 1,
-        name: 'React Js',
+        name: '• React Js',
         fecha:'10/2021 - 12/2021',
         instituto: 'Coderhouse',
         web: 'https://www.coderhouse.com/',
@@ -13,7 +13,7 @@ const cursos = [
     },
     {
         id: 2,
-        name: 'Full Stack Web Developer',
+        name: '• Full Stack Web Developer',
         fecha:'03/2021 - 09/2021',
         instituto: 'Digital House',
         web: 'https://www.digitalhouse.com/',
@@ -24,7 +24,7 @@ const cursos = [
     return (
        <>
             <div className='coursesContainer'>
-                <h1 className='proyectsTitle'>Cursos</h1>
+                <h1 className='proyectsTitle'>Studies</h1>
                 <div className='courses'>
                     {cursos.map(curso => (
                         <div className='course' key={curso.id}>
