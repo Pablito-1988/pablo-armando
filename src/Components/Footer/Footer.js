@@ -25,8 +25,8 @@ const Footer = () => {
         <img src={logo} alt="logoPablo" className="logoPabloFooter" />
         </div>
         <div className="socialMedia">
-          <i id="socialMediaLogo" className="fab fa-instagram"></i>
-          <i id="socialMediaLogo" className="fab fa-linkedin-in"></i>
+          <a href="https://www.instagram.com/pablito67_25" target="_blank" rel="noreferrer" ><i id="socialMediaLogo" className="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/pablo-armando/" target="_blank" rel="noreferrer"><i id="socialMediaLogo" className="fab fa-linkedin-in"></i></a>
         </div>
         <div className="copy">
           <p className="copyInfo">
