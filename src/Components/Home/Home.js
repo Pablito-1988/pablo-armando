@@ -10,7 +10,7 @@ const [test , setTest] = useState('test');
 const [background , setBackground] = useState('homeAnimation');
 const [arrow , setArrow] = useState('arrow');
 const [atribute , setAtribute] = useState('a Front end developer.');
-const at = ['a Front end developer.','a creative web developer' ,'Dedicated.' , 'Passionate.', 'Gamer.' , 'a Full Stack Developer.'];
+const at = ['a Front end developer.','a creative web developer' ,'Dedicated.' , 'Passionate.', 'Gamer.'];
 
 useEffect(() => {
    const interval = setInterval(() => {

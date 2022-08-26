@@ -54,3 +54,28 @@
 .profileInfo{
     margin: 0;
 }
+
+@media(min-width: 720px){
+    .profileContent{
+        flex-direction: row;
+        margin: 5rem 0;
+
+
+    }
+    .introductionContent{
+        width: 20%;
+        margin-right: 10%;
+    }
+    .profileImgContainer{
+        width:33%;
+        margin: 0;
+    }
+    .datailContainer{
+            width: 20%;
+    margin-left: 10%;
+    }
+    .profileImage{
+        border-radius: 0;
+        margin: 0;
+    }
+}

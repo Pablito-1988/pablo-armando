@@ -79,3 +79,15 @@
     border-radius: 10px;
     
 }
+
+@media(min-width: 720px){
+    .proyectsWrapper{
+        flex-direction: row;
+    }
+    .imageContainer{
+        width: 50%;
+    }
+    .proyectTitle{
+        width: 51%;
+    }
+}

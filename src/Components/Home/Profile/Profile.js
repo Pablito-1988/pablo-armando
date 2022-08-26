@@ -10,7 +10,7 @@ const Profile = () => {
           <h2 className="profilemainTitle">Profile</h2>
         </div>
         <div className="profileContent">
-          <div>
+          <div className="introductionContent">
             <h2>About me</h2>
             <p>
               I’m a Jr Web Full Stack Developer with FrontEnd orientation.
@@ -21,6 +21,7 @@ const Profile = () => {
           <div className="profileImgContainer">
             <img src={imagen} alt="Pablo Armando" className="profileImage" />
           </div>
+          <div className="datailContainer" >
           <h2>Details</h2>
           <p className="profileDetails">• Name:</p>
           <p className="profileInfo">Pablo Armando</p>
@@ -29,6 +30,8 @@ const Profile = () => {
           <p className="profileDetails">• Location:</p>
           <p className="profileInfo">Buenos Aires, Argentina</p>
         </div>
+
+          </div>
       </div>
     </div>
   );
