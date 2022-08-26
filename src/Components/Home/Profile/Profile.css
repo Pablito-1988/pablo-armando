@@ -39,7 +39,7 @@
 }
 .profileImage{
     width: 90%;
-    border-radius: 100%;
+    border-radius: 5px;
     margin-bottom: 1.5rem;
 }
 
@@ -75,7 +75,7 @@
     margin-left: 10%;
     }
     .profileImage{
-        border-radius: 0;
+        border-radius: 5px;
         margin: 0;
     }
 }
