@@ -2,7 +2,7 @@ import React , {useRef} from "react";
 import "./ProyectStyle.css";
 import Proyect from "./Proyect";
 import Avispa from "../../../Assets/Img/Avispa.png";
-import Dog from "../../../Assets/Img/DogPNG.png";
+/* import Dog from "../../../Assets/Img/DogPNG.png"; */
 import Jenny from "../../../Assets/Img/JennyLogo.png";
 
 const Proyects = () => {
@@ -18,11 +18,11 @@ const Proyects = () => {
       web: "https://jennypanichi.netlify.app",
       image:  Jenny ,
     },
-    {
+/*     {
       title: "Dog Grow",
       web: "https://dog-grow.netlify.app",
       image:  Dog ,
-    },
+    }, */
   ];
 
   const changeColor = useRef()
@@ -33,9 +33,9 @@ const Proyects = () => {
         changeColor.current.style.backgroundColor='rgb(56, 182, 255)'
     }else if(name === "Jenny Panichi"){
         changeColor.current.style.backgroundColor='red'
-    }else if(name === "Dog Grow"){
+    }/* else if(name === "Dog Grow"){
         changeColor.current.style.backgroundColor='rgb(49, 218, 73)'
-    }
+    } */
  }
  function normalColor(){
     changeColor.current.style.backgroundColor='black'
