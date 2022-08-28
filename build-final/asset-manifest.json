@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2455e6c5.css",
+    "main.js": "/static/js/main.b631f5c7.js",
+    "static/media/Pablo.jpg": "/static/media/Pablo.9e40a4d50116def05e5a.jpg",
+    "static/media/Avispa.png": "/static/media/Avispa.12706222125f54856b9a.png",
+    "static/media/1.png": "/static/media/1.d2654e5646d977bee840.png",
+    "static/media/JennyLogo.png": "/static/media/JennyLogo.d3a0460165a81bf18d86.png",
+    "index.html": "/index.html",
+    "main.2455e6c5.css.map": "/static/css/main.2455e6c5.css.map",
+    "main.b631f5c7.js.map": "/static/js/main.b631f5c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2455e6c5.css",
+    "static/js/main.b631f5c7.js"
+  ]
+}
